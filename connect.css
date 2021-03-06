@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
 body{
     background-image: url('./assets/background.png'); /* to include image */
+    background-repeat: no-repeat;
     font-family: 'Noto Sans TC';
     transform: scale(0.65);
     margin: 0;
@@ -17,7 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 10% 10% 8% 90%;
+    margin: -5% 10% 8% 90%;
 }
 
 #login-panel {
@@ -96,4 +97,40 @@ hr {
 
 #create-btn:hover {
     background-color: #3259c6;
+}
+
+.theme2 {
+    margin: 550px 0 0 -100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 230px;
+}
+
+#poem {
+    width: 500px;
+    height: auto;
+}
+
+#sign-up-btn {
+    background-image: url('./assets/img5.png');
+    width: 265px;
+    height: 71px;
+    border-radius: 30px;
+}
+
+#sign-up-btn:hover {
+    background-image: url('./assets/img6.png');
+}
+
+#slogan {
+    width: 1000px;
+    height: auto;
 }
