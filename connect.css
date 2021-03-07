@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     font-family: 'Noto Sans TC';
     transform: scale(0.65);
+    width: 100%;
     margin: 0;
 }
 
@@ -22,31 +23,32 @@ body{
 }
 
 #login-panel {
-    background-color: white;
-    box-shadow: 0 0 15px grey;
-    border-radius: 25px;
-    position: static;
-    padding: 17% 7%;
-    margin: 0 0 10% 0;
-
     display: flex;
     flex-direction: column;
     align-items: stretch;
     gap: 30px;
-    
+
+    background-color: white;
+    box-shadow: 0 0 15px grey;
+    border-radius: 25px;
+    padding: 17% 7%;
+    margin: 0 0 10% 0;
+
 }
 
 .roundbtn {
+    border: 2px solid #CCCCCC;
     border-radius: 15px;
-    color: white;
-    border-color: none;
-    font-size: 36px;
-    padding: 13px 0;
-    border: 2px solid white;
     border-color: #CCCCCC;
+
+    color: white;
     font-family: 'Noto Sans TC';
+    font-size: 36px;
     font-weight: bold;
     letter-spacing: 3px;
+    
+    padding: 13px 0;
+    outline: none;
 }
 
 
@@ -54,10 +56,15 @@ body{
     border-radius: 15px;
     border-color: #CCCCCC;
     background-color: white;
-    color: #CCC8CC;
     padding: 13px 15px;
     font-family: 'Noto Sans TC';
     letter-spacing: 3px;
+    outline: none;
+}
+
+::placeholder { /* change text-field placeholder color */
+    color: #CCC8CC;
+    opacity: 1; 
 }
 
 .text-field:hover {
@@ -123,7 +130,7 @@ hr {
     background-image: url('./assets/img5.png');
     width: 265px;
     height: 71px;
-    border-radius: 30px;
+    border-radius: 35px;
 }
 
 #sign-up-btn:hover {
