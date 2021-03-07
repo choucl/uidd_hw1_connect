@@ -51,6 +51,10 @@ body{
     outline: none;
 }
 
+.roundbtn:hover {
+    cursor: pointer;
+}
+
 
 .text-field {
     border-radius: 15px;
@@ -90,6 +94,7 @@ body{
 
 #forget-btn:hover {
     color: #5b5a5b;
+    cursor: pointer;
     text-decoration: underline;
 }
 
@@ -104,6 +109,10 @@ hr {
 
 #create-btn:hover {
     background-color: #3259c6;
+}
+
+#scroll-down-btn:hover {
+    cursor: pointer;
 }
 
 .theme2 {
