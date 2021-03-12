@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
 body{
-    background-image: url('./assets/background.png'); /* to include image */
+    background-image: url('./assets/image.png'); /* to include image */
     background-repeat: no-repeat;
+    background-size: cover;
+    width: device-width;
+    max-width: 100%;
+    height: 100%;
+
+
     font-family: 'Noto Sans TC';
     transform: scale(0.65);
-    width: 100%;
+    
+    align-items: center;
     margin: 0;
 
 }
@@ -20,7 +27,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: -5% 10% 8% 90%;
+    margin: -10% 10% 12% 90%;
 }
 
 #login-panel {

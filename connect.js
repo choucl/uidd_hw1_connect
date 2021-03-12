@@ -1,5 +1,3 @@
-// refernce: https://gist.github.com/andjosh/6764939
-
 document.getElementById('sign-up-btn').onclick = function () {
     scrollTo(document.documentElement, 150, 1250);   
 }
