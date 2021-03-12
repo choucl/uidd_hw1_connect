@@ -8,7 +8,7 @@ body{
     height: 100%;
 
 
-    font-family: 'Noto Sans TC';
+    font-family: url(./assets/genseki-font/ttc/GenSekiGothic-M.ttc) 'Noto Sans TC' ;
     transform: scale(0.65);
     
     align-items: center;
@@ -95,7 +95,7 @@ body{
     background-color: white;
     color:#D3CFD3;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     margin: 0;
     letter-spacing: 3px;
 }

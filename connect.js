@@ -3,7 +3,7 @@ document.getElementById('sign-up-btn').onclick = function () {
 }
 
 document.getElementById('scroll-down-btn').onclick = function(){
-    scrollTo(document.documentElement, 1200, 1250);
+    scrollTo(document.documentElement, 1250, 1250);
 }
     
 function scrollTo(element, to, duration) {
