@@ -38,9 +38,8 @@ t /= d/2;
     return -c/2 * (t*(t-2) - 1) + b;
 };
 
-// $('.transition-button').hover
-//   .transition('jiggle')
-// ;
+setInterval(function(){ $('.jump-button').transition('jiggle')}, 5000);
+
 
 $(document).ready(function() {
     $('.transition-button').hover(function(){
