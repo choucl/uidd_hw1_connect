@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Connect</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" type="text/css">
+
     <link href="connect.css" rel="stylesheet"> <!--reference css code-->
   </head>
-  <body onLoad="window.scroll(0, 150)"> 
+  <body onLoad="window.scroll(0, 100)"> 
 
     <div class="theme1"> <!--page 1-->
-        <div class="theme-log">
+        <div id="theme-log">
             <div id="login-panel">
                 
                 <input type="email" id="logmail" class="text-field" placeholder="Email" style="font-size:36px">
@@ -23,16 +25,20 @@
             <img src="./assets/img7.png">
         </div>
 
-        <img src="./assets/img8.png" id="scroll-down-btn"> <!--scroll down image-->
+        <img src="./assets/img8.png" id="scroll-down-btn" class="transition-button"> <!--scroll down image-->
     </div>
 
     <div class="theme2"> <!-- page 2-->
         <div class="upper">
             <img src="./assets/img9.png" id="poem">
-            <input type="button" id="sign-up-btn" class="roundbtn"></button>
+            <input type="button" id="sign-up-btn" class="roundbtn transition-button"></button>
         </div>
         <img src="./assets/img7.png" id="slogan">
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+
     <script src="connect.js"></script>
   </body>
 </html>

@@ -1,9 +1,13 @@
+var theme1top = 100;
+var theme2top = 1250;
+
+console.log(theme1top);
 document.getElementById('sign-up-btn').onclick = function () {
-    scrollTo(document.documentElement, 150, 1250);   
+    scrollTo(document.documentElement, theme1top, 1250);   
 }
 
 document.getElementById('scroll-down-btn').onclick = function(){
-    scrollTo(document.documentElement, 1250, 1250);
+    scrollTo(document.documentElement, theme2top, 1250);
 }
     
 function scrollTo(element, to, duration) {
@@ -33,3 +37,13 @@ t /= d/2;
     t--;
     return -c/2 * (t*(t-2) - 1) + b;
 };
+
+// $('.transition-button').hover
+//   .transition('jiggle')
+// ;
+
+$(document).ready(function() {
+    $('.transition-button').hover(function(){
+        $(this).transition('jiggle');
+    }, function(){});
+});
